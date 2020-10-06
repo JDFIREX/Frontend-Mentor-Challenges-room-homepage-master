@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: red; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- logo -->
+    <div class="hr_logo_box">
+      <img class="hr_logo" src="images/logo.svg" alt="logo">
+    </div>
+    <!-- lista -->
+    <div class="hr_list">
+      <div class="hr_item">
+        <p class="item_p">home</p class="item_p">
+      </div>
+      <div class="hr_item">
+        <p class="item_p">shop</p>
+      </div>
+      <div class="hr_item">
+        <p class="item_p">about</p>
+      </div>
+      <div class="hr_item">
+        <p class="item_p">contact</p>
+      </div>
+    </div>
+    <!-- hamb -->
+    <div class="hr_hamb_box">
+      <img  class="hr_hamb" src="images/icon-hamburger.svg" alt="hamb">
+    </div>
+  </header>
+
+  <main>
+    <!-- top section -->
+    <div class="discover_box">
+      <!-- img slider -->
+      <div class="discover_slider_box">
+        <img class="discover_slider_img" src="images/desktop-image-hero-1.jpg" data-index="1" alt="hero1">
+      </div>
+      <!-- section main info -->
+      <div class="discover_info">
+        <!-- header discover -->
+        <div class="discover_header_box">
+          <h1 class="discover_h">Discover innovative ways to decorate</h1>
+          <p class="discover_p">We provide unmatched quality, comfort, and style for property owners across the country. 
+            Our experts combine form and function in bringing your vision to life. Create a room in your 
+            own style with our collection and make your property a reflection of you and what you love.</p>
+          <div class="discover_shop_box">
+            <h2>Shop now</h2>
+            <img src="images/icon-arrow.svg" alt="arrow">
+          </div>
+        </div>
+        <!-- slider button -->
+        <div class="discover_slider_button">
+          <div class="discover_button" data-side="left">
+            <img src="images/icon-angle-left.svg" data-side="left" alt="left angle">
+          </div>
+          <div class="discover_button" data-side="right">
+            <img src="images/icon-angle-right.svg" data-side="right" alt="right angle">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- bottom section -->
+    <div class="about_box">
+      <div class="about_left_box">
+        <img class="about_left_img" src="images/image-about-dark.jpg" alt="dark">
+      </div>
+      <div class="about_mid_box">
+        <h3>About our furniture</h3>
+        <p>Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+      <div class="about_right_box">
+        <img class="about_right_img" src="images/image-about-light.jpg" alt="light">
+      </div>
+    </div>
+  </main>
+  
+  <div style="width: auto; position: fixed ; bottom: 0px; left : 10px; color: black;">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/JDFIREX" target="_blank">Jonatan Dajtrowski</a>.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
